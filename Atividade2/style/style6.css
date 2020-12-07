@@ -1,0 +1,20 @@
+table{
+    border: 2px solid #000;
+    width: 100%;
+    height: 400px;
+}
+
+td{
+    font: italic;
+    border: 1px solid #000;
+    font-weight: bolder;
+}
+tr{
+    font: italic;
+    font-size: 20px;
+}
+h2{
+    text-align: center;
+    border: bold;
+    font-weight: bolder ;
+}

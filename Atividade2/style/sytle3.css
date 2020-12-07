@@ -1,0 +1,19 @@
+body{
+   font-size:  26px;
+   
+}
+.p1{
+    color: rgb(56, 184, 17);
+    font-size: 15px;
+    font-family:  'Arial Narrow Bold', sans-serif;
+}
+.p2{
+    color: rgb(214, 32, 32);
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.p3{
+    color: rgb(42, 34, 153);
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

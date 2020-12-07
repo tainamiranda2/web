@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validar campos</title>
+    <link rel="stylesheet" href="/style/style7.css">
+</head>
+<body>
+    <h2>Ficha Cadastral</h2>
+    <form action="" class="campo">
+    <label for="">Nome
+    <input type="text" name="nome" required name="nome">
+    </label>
+    <br>
+
+    <label for="" class="dados">RG
+    <input type="number" name="RG" required min="13" max="13">
+    </label>
+
+    <label for="" class="dados">CPF
+    <input type="number" name="CPF" required min="13" max="13">
+     </label>
+    <br>
+        
+     <label for="">Endereço
+     <input type="text" name="RG" required minlength="55">
+     </label>
+     <br>
+
+     <label for="" class="dts">Data de nascimento
+    <input type="date" name="data">
+     </label>
+
+     <select name="Sexo" id="">Sexo
+<option value="F">Feminino</option>
+<option value="M">MAsculino</option>
+     </select>
+     <br>
+    
+     <label class="checkbox">Solteiro
+        <input type="radio" name="civil"> 
+    </label>
+    <label class="checkbox"> Viúvo
+        <input type="radio" name="civil">
+    </label>
+    <label class="checkbox">Casado
+        <input type="radio" name="civil" > 
+    </label>
+     <br>
+     
+     <input  type="submit" value="Limpar dados"/>
+    </form>
+</body>
+</html>

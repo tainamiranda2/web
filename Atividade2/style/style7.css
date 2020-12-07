@@ -1,0 +1,25 @@
+body{
+font-family: Arial;
+background-color: #677;
+}
+h2{
+    font: 2px;
+}
+.checkbox {
+   padding: 20px 30px 10px 0px;
+    display: block;
+   float: left;
+}
+.dts{
+    align-items: center;
+}
+label.dts {
+display: block;
+float: left;
+}
+.dados{
+    padding: 2px 5px 4px 40px;
+}
+label{
+    padding: 0 50px 30px 0px;
+}
