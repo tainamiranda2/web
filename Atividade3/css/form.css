@@ -1,0 +1,13 @@
+form{
+border: #565;
+}
+label{
+    padding: 20px;
+    display: flex;
+    
+}
+button {
+    background-color: #567;
+    padding: 10px;
+    border-radius: 15px;
+}
